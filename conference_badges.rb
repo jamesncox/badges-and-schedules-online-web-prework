@@ -10,8 +10,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.map do |attendee|
-    "Hello, my name is #{attendees}."
-    binding.pry
+    "Hello, my name is #{attendee}."
  end
 end
 
@@ -24,6 +23,7 @@ def assign_rooms(array)
     counter += 1
   end
   return newarray
+  binding.pry
 end
 
 def printer(array)
