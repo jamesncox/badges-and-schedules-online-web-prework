@@ -11,7 +11,7 @@ end
 def batch_badge_creator(array)
   new_array = []
   badge_maker.each do |names|
-    new_array << names
+    
   end
   binding.pry
 end
