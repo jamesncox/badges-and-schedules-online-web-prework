@@ -11,7 +11,7 @@ end
 def batch_badge_creator(array)
   new_array = []
   binding.pry
-end
+
 
 def assign_rooms(array)
   newarray = []
