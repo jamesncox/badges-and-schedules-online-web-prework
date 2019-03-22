@@ -11,9 +11,8 @@ end
 def batch_badge_creator(array)
   new_array = []
   badge_maker.each do |names|
-    
+  binding.pry 
   end
-  binding.pry
 end
 
 def assign_rooms(array)
