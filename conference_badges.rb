@@ -20,7 +20,7 @@ def assign_rooms(array)
   array.each do |name|
     newarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
 
-    counter -= 1
+    counter += 1
      binding.pry
   end
   return newarray
