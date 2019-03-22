@@ -11,10 +11,11 @@ end
 def batch_badge_creator(array)
   newarray = []
   array.each do |name|
+    binding.pry
     newarray.push("Hello, my name is #{name}.")
   end
   return newarray
-end
+
 
 def assign_rooms(array)
   newarray = []
