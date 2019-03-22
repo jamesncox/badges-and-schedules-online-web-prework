@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-=======
+require 'pry'
+
 people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
->>>>>>> 3d6eac03936162e1fc1c19c441f952f4d0823cd3
+
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -36,10 +36,3 @@ def printer(array)
     puts attendees
   end
 end 
-
-=======
-    counter += 
-  end
-  return newarray
-end
->>>>>>> 3d6eac03936162e1fc1c19c441f952f4d0823cd3
