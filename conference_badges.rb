@@ -10,8 +10,8 @@ end
 
 def batch_badge_creator(attendees)
   attendees.map do |attendees|
-    binding.pry
     "Hello, my name is #{attendee}."
+    binding.pry
  end
 end
 
