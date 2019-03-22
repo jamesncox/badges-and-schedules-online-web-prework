@@ -23,7 +23,6 @@ def assign_rooms(array)
     counter += 1
   end
   return newarray
-  binding.pry
 end
 
 def printer(array)
