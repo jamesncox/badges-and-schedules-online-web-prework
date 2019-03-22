@@ -10,6 +10,9 @@ end
 
 def batch_badge_creator(array)
   new_array = []
+  badge_maker.each do |names|
+    new_array << names
+    return new_array
   binding.pry
 end
 
