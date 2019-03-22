@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+people = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
+>>>>>>> 3d6eac03936162e1fc1c19c441f952f4d0823cd3
+
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -15,6 +21,7 @@ def assign_rooms(array)
   counter = 1
   array.each do |name|
     newarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+<<<<<<< HEAD
     counter += 1
   end
   return newarray
@@ -30,3 +37,9 @@ def printer(array)
   end
 end 
 
+=======
+    counter += 
+  end
+  return newarray
+end
+>>>>>>> 3d6eac03936162e1fc1c19c441f952f4d0823cd3
